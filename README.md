@@ -17,11 +17,13 @@ Clone the repo
 
 ## Step 3.
 Edit the terraform.tfvars file with your variables.
+
 Required changes are
 - keypair. (Set this to a keypair that you already have access too, or just create a new one, we can actually get terraform to provision one but thats for a later date)
 - creds_path (Set this to where your aws credentials file is located after you completed step 1.)
 - my_IP (Set this to your current IP Address of your computer, we set up the security group to only allow our IP to access the resources) Otherwise it defaults to all the internet
 - set AMI to one in your region if you're not using the us-east-1
+
 Other changes
 - Set the region and availability zone to suit where you want to provision the resources
 
