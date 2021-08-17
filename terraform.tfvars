@@ -1,0 +1,8 @@
+subnet_prefix = "10.0.1.0/24"
+provisioned = "terraform"
+region = "us-east-1"
+availability_zone_1 = "us-east-1a"
+keypair = "terraform-key"
+creds_path = "~/.aws/credentials"
+my_ip = "0.0.0.0/0"
+ami = "ami-09e67e426f25ce0d7" 
